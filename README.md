@@ -3,7 +3,10 @@ python script for choice selection post input
 
 Simple script I rewrote from another code;
 input things you want to randomly choose from, get result (and maybe land on a secret joke answer)
+
 This time you can declare how many choices will be included in a list to choose from
+
+
 INSTRUCTION
 
 Open terminal
