@@ -13,6 +13,6 @@ Open terminal
 4. If you're still reading this, you're not an idiot who just DoS'd their own system. You are now awarded one gold star
 ( ◡́.◡̀)(^◡^ )
 5. 
-Up top, blue "Code /" button, download your preferred way, or if you're not sure:
+Up top, green "Code <>" button, download your preferred way, or if you're not sure:
 zip > open downloads > extract > open project folder > choiceselector.py should be present.
 You can move it wherever you want and also delete the two folders (one zip, one extracted)
