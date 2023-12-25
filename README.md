@@ -1,4 +1,4 @@
-# decider
+# Domingo's Very Good Code
 python script for choice selection post input
 
 Simple script I rewrote from another code;
