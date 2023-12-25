@@ -8,7 +8,7 @@ from time import sleep
 
 '''def clear():
     _ = call('dir', shell=True, 'clear' if os.name == 'posix' else 'cls')'''
-def clear();
+def clear():        # TY Haydn for the bug spotting :)
     _ = call('cls')
 
 
