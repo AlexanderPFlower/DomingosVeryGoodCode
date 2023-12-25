@@ -2,9 +2,14 @@ import random, os
 from subprocess import call
 from time import sleep
 
-#### AUXILIARY CODE TO ANIMATE RESULTS  #### 
+
+
+#### AUXILIARY CODE TO ANIMATE RESULTS #### 
+
 def clear():
-    _ = call('clear' if os.name == 'posix' else 'cls')
+    _ = call('dir', shell=True, 'clear' if os.name == 'posix' else 'cls')
+
+
 
 # slowprint before RNG lottery
 def slowprint(x):
@@ -13,7 +18,10 @@ def slowprint(x):
         sleep(0.5)
 
 
-#####     MAIN PROGRAM STARTS HERE      ####  
+
+
+##### MAIN PROGRAM START ####
+        
 def selector():
     # Get number of choices, typecast to int as to prepare for loop
     clear()
@@ -41,5 +49,6 @@ def selector():
 
     decider = random.choice(choiceList)
     print(decider + " :)")
+
 
 selector()
