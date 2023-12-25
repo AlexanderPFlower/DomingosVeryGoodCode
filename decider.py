@@ -6,8 +6,10 @@ from time import sleep
 
 #### AUXILIARY CODE TO ANIMATE RESULTS #### 
 
-def clear():
-    _ = call('dir', shell=True, 'clear' if os.name == 'posix' else 'cls')
+'''def clear():
+    _ = call('dir', shell=True, 'clear' if os.name == 'posix' else 'cls')'''
+def clear();
+    _ = call('cls')
 
 
 
